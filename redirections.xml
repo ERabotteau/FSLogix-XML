@@ -1,0 +1,62 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<FrxProfileFolderRedirection ExcludeCommonFolders="127">
+	<Excludes>
+		<!-- New Teams -->
+		<Exclude Copy="0">AppData\Local\Microsoft\Edge</Exclude>
+		<Exclude Copy="0">AppData\Roaming\Microsoft\Teams\media-stack</Exclude>
+		<Exclude Copy="0">AppData\Local\Microsoft\Teams\meeting-addin\Cache</Exclude>
+		<Exclude Copy="0">AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs</Exclude>
+		<Exclude Copy="0">AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\PerfLogs</Exclude>
+		<Exclude Copy="0">AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\WebStorage</Exclude>
+		<!-- Addition -->
+		<Exclude Copy="0">AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\GPUCache</Exclude>
+		<Exclude Copy="0">AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\Service Worker\CacheStorage</Exclude>
+		<Exclude Copy="0">AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\Code Cache</Exclude>
+		<Exclude Copy="0">AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\IndexedDB</Exclude>
+		<Exclude Copy="0">AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\EBWebView\WV2Profile_tfw\Cache</Exclude>
+		<!-- Old Teams -->
+		<Exclude Copy="0">AppData\Local\SquirrelTemp</Exclude>
+		<Exclude Copy="0">AppData\Local\Microsoft\Teams\Current\Locales</Exclude>
+		<Exclude Copy="0">AppData\Local\Microsoft\Teams\Packages\SquirrelTemp</Exclude>
+		<Exclude Copy="0">AppData\Local\Microsoft\Teams\current\resources\locales</Exclude>
+		<Exclude Copy="0">AppData\Local\Microsoft\Teams\Current\Locales</Exclude>
+		<Exclude Copy="0">AppData\Roaming\Microsoft\Teams\Service Worker\CacheStorage</Exclude>
+		<Exclude Copy="0">AppData\Roaming\Microsoft\Teams\Application Cache</Exclude>
+		<Exclude Copy="0">AppData\Roaming\Microsoft\Teams\Cache</Exclude>
+		<Exclude Copy="0">AppData\Roaming\Microsoft Teams\Logs</Exclude>
+		<Exclude Copy="0">AppData\Roaming\Microsoft\Teams\media-stack</Exclude>
+		<!-- Other -->
+		<Exclude Copy="0">AppData\Roaming\Downloaded Installations</Exclude>
+		<Exclude Copy="0">AppData\Local\Downloaded Installations</Exclude>
+		<Exclude Copy="0">AppData\Local\Microsoft\Windows\WebCache</Exclude>
+		<Exclude Copy="0">AppData\Local\CrashDumps</Exclude>
+		<!-- test a confirmer -->
+		<Exclude Copy="0">AppData\Local\Packages</Exclude>
+		<Exclude Copy="0">AppData\Local\Microsoft\Office\SolutionPackages</Exclude>
+		<!-- Les caches -->
+		<Exclude Copy="0">AppData\Local\Microsoft\Terminal Server Client\Cache</Exclude>
+		<Exclude Copy="0">AppData\Local\Microsoft\Edge\User Data\Default\Cache</Exclude>
+		<Exclude Copy="0">AppData\Local\Google\Chrome\User Data\Default\Cache</Exclude>
+		<Exclude Copy="0">AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\Cache</Exclude>
+		<!-- Addition -->
+		<Exclude Copy="0">AppData\Local\Google\Chrome\User Data\Default\Code Cache</Exclude>
+		<!-- Outlook -->
+		<Exclude Copy="0">AppData\Local\Microsoft\olk\logs</Exclude>
+		<Exclude Copy="0">AppData\Local\Microsoft\olk\EbWebView\default\WebStorage</Exclude>
+		<Exclude Copy="0">AppData\Local\Microsoft\olk\EbWebView\default\Service Worker\CacheStorage</Exclude>
+		<Exclude Copy="0">AppData\Local\Microsoft\olk\EbWebView\default\Code Cache</Exclude>
+		<Exclude Copy="0">AppData\Local\Microsoft\olk\EbWebView\default\IndexedDB</Exclude>
+		<Exclude Copy="0">AppData\Local\Microsoft\olk\EbWebView\default\Local Storage</Exclude>
+		<Exclude Copy="0">AppData\Local\Microsoft\olk\Attachments</Exclude>
+		<Exclude Copy="0">AppData\Local\Microsoft\olk\EbWebView\default\Cache</Exclude>
+		<!-- PTC Caches -->
+		<Exclude Copy="0">AppData\Roaming\PTC\Caches\.cache2008</Exclude>
+		<Exclude Copy="0">AppData\Roaming\PTC\Caches\.ssrd</Exclude>
+		<!-- Catia -->
+		<Exclude Copy = "0">AppData\Local\DassaultSystemes\CATTemp</Exclude>
+		<Exclude Copy = "0">AppData\Local\DassaultSystemes\CATCache\cgr</Exclude>
+	</Excludes>
+	<Includes>
+		<Include>AppData\Local\Microsoft\Edge\User Data</Include>
+	</Includes>
+</FrxProfileFolderRedirection>
