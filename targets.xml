@@ -239,4 +239,8 @@
         <Path Action = "Delete">%AppData%\PTC\Caches\.ssrd</Path>
         <Path Action = "Delete">%AppData%\PTC\Caches-old</Path>
     </Target>
+    <Target Name   = "DassaultSystems">
+    <Path   Action = "Delete">%LocalAppData%\DassaultSystemes\CATTemp</Path>
+    <Path   Action = "Delete">%LocalAppData%\DassaultSystemes\CATCache\cgr</Path>
+    </Target>
 </Targets>
