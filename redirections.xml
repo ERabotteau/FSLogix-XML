@@ -2,7 +2,6 @@
 <FrxProfileFolderRedirection ExcludeCommonFolders="127">
 	<Excludes>
 		<!-- New Teams -->
-		<Exclude Copy="0">AppData\Local\Microsoft\Edge</Exclude>
 		<Exclude Copy="0">AppData\Roaming\Microsoft\Teams\media-stack</Exclude>
 		<Exclude Copy="0">AppData\Local\Microsoft\Teams\meeting-addin\Cache</Exclude>
 		<Exclude Copy="0">AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Logs</Exclude>
@@ -56,7 +55,4 @@
 		<Exclude Copy = "0">AppData\Local\DassaultSystemes\CATTemp</Exclude>
 		<Exclude Copy = "0">AppData\Local\DassaultSystemes\CATCache\cgr</Exclude>
 	</Excludes>
-	<Includes>
-		<Include>AppData\Local\Microsoft\Edge\User Data</Include>
-	</Includes>
 </FrxProfileFolderRedirection>
